@@ -1,0 +1,93 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/nunito';
+@import '@fontsource-variable/noto-sans-ethiopic';
+@import '@fontsource-variable/noto-naskh-arabic';
+
+@font-face {
+  font-family: 'Hafs';
+  src: url('/fonts/hafs18.woff2') format('woff2');
+  font-display: swap;
+}
+
+@custom-variant night (&:where([data-theme='night'], [data-theme='night'] *));
+
+/* "Morning sky": cloud white, sky blue, sage, warm sand, deep ink */
+@theme {
+  --color-cloud: #f6fafc;
+  --color-mist: #e4eff5;
+  --color-sky: #2f84b8;
+  --color-sky-soft: #cfe6f3;
+  --color-sage: #6f9f80;
+  --color-sage-soft: #dcebe1;
+  --color-sand: #ecdfc4;
+  --color-sand-deep: #9a7a43;
+  --color-ink: #15364a;
+  --color-ink-soft: #4d6878;
+  --color-night: #0d1a25;
+  --color-night-up: #152838;
+  --color-night-line: #23405a;
+  --color-dawn: #7cc0e6;
+  --font-ui: 'Nunito Variable', 'Noto Sans Ethiopic Variable', 'Noto Naskh Arabic Variable', system-ui, sans-serif;
+  --font-quran: 'Hafs', 'Noto Naskh Arabic Variable', serif;
+  --font-naskh: 'Noto Naskh Arabic Variable', 'Hafs', serif;
+}
+
+:root {
+  color-scheme: light;
+  --bg: var(--color-cloud);
+  --surface: #ffffff;
+  --line: #d6e6ef;
+  --text: var(--color-ink);
+  --muted: var(--color-ink-soft);
+  --accent: var(--color-sky);
+  --accent-ink: #ffffff;
+  --calm: var(--color-sage);
+  --calm-soft: var(--color-sage-soft);
+  --warm: var(--color-sand);
+  --warm-ink: #6d5428;
+  --sky-top: #bfe0f2;
+  --sky-bottom: #f6fafc;
+}
+
+[data-theme='night'] {
+  color-scheme: dark;
+  --bg: var(--color-night);
+  --surface: var(--color-night-up);
+  --line: var(--color-night-line);
+  --text: #e6eff4;
+  --muted: #9fb6c4;
+  --accent: var(--color-dawn);
+  --accent-ink: #0d1a25;
+  --calm: #8cc3a0;
+  --calm-soft: #1c3a2c;
+  --warm: #3d3424;
+  --warm-ink: #e5d1a6;
+  --sky-top: #16314a;
+  --sky-bottom: #0d1a25;
+}
+
+html, body { background: var(--bg); color: var(--text); }
+body {
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
+}
+[dir='rtl'] body { font-family: var(--font-naskh), var(--font-ui); }
+
+.quran { font-family: var(--font-quran); line-height: 2.15; word-spacing: 0.04em; }
+.naskh { font-family: var(--font-naskh); line-height: 2; }
+.sky { background: linear-gradient(180deg, var(--sky-top) 0%, var(--sky-bottom) 100%); }
+
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 10px; }
+
+@keyframes ripple { from { transform: scale(0.6); opacity: 0.5; } to { transform: scale(1.6); opacity: 0; } }
+.ripple { animation: ripple 0.7s ease-out forwards; }
+@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.rise { animation: rise 0.5s ease-out both; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+.pb-safe { padding-bottom: max(env(safe-area-inset-bottom), 0px); }

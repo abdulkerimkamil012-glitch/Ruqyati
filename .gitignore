@@ -1,0 +1,4 @@
+.cache-quran/
+node_modules/
+dist/
+*.local
