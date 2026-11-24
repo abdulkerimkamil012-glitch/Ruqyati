@@ -10,3 +10,4 @@
 | 2026-11-23 | Reminders v1 = calendar file (.ics, daily repeat) | Works on every phone with no server; push later |
 | 2026-11-23 | No login, Dexie on-phone storage | Free app, privacy, offline |
 | 2026-11-23 | Own tiny screen router (no router package) | Few screens, fewer dependencies, fewer bugs |
+| 2026-11-24 | Hosting moves to **Cloudflare Pages** (free, unlimited bandwidth, 500 builds/month); Netlify kept as backup | Netlify free credits are low and traffic costs credits |
