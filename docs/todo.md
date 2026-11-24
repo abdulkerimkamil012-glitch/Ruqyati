@@ -37,7 +37,7 @@
 ## M5 Polish & ship
 - [x] Welcome (3 screens), Settings, About · proof: 28 tests, build ok, 360px am/ar/en light+night, 0 console errors (2026-11-23)
 - [x] 360px check am / ar / en, light / night, 0 console errors · proof: 28 tests, build ok, 360px am/ar/en light+night, 0 console errors (2026-11-23)
-- [ ] Deploy once to Netlify
+- [x] Deploy once: live on Cloudflare (ruqyati.abdulkerimkamil012.workers.dev), 2026-11-24
 
 ## Later
 - [ ] Push notifications (Supabase)
