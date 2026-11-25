@@ -98,48 +98,52 @@ def step_card(n, s, routine, seen):
     body.append(check_row(items) + '</div>')
     return ''.join(body)
 
-parts = []
-parts.append(f"""<section class="cover"><div class="quran" style="font-size:40pt;color:#2f84b8">رُقْيَتِي</div><h1>Ruqyati · ሩቅያቲ</h1>
-<p style="font-size:14pt;font-weight:800">የዓሊም ግምገማ ጥቅል · ملف المراجعة الشرعية · Scholar review pack</p>
-<p>ይህ ሰነድ በመተግበሪያው ውስጥ ያለውን ሁሉ ይዟል፦ እያንዳንዱ አንቀጽ፣ ዱዓ፣ ቁጥር፣ ምንጭ፣ ትርጉምና መመሪያ።<br>
-<span class="ar" style="text-align:center;display:block">يحتوي هذا الملف كل ما في التطبيق: كل آية ودعاء وعدد ومصدر وترجمة وتعليمات.</span></p>
-<table style="margin-top:8mm"><tr><th>እንዴት እንደሚገመገም · طريقة المراجعة</th></tr>
-<tr><td>1. በእያንዳንዱ ካርድ ላይ <span class="box"></span>✓ (ትክክል) ወይም <span class="box"></span>✗ (ይስተካከል) ምልክት ያድርጉ፤ ማስተካከያውን በነጥብ መስመሩ ላይ ይጻፉ።<div class="ar">ضع علامة ✓ أو ✗ في كل بطاقة، واكتب التصحيح على السطر المنقّط.</div></td></tr>
-<tr><td>2. በክፍል “ሀ” ያሉትን ጥያቄዎች ይመልሱ።<div class="ar">أجب عن أسئلة القسم «أ».</div></td></tr>
-<tr><td>3. የቁርኣን ዐረብኛ ጽሑፍ ከንጉሥ ፋህድ ማተሚያ ማዕከል (ሐፍስ v18) በቀጥታ የተወሰደ ነው፤ እባክዎ የክፍሎቹን ምርጫ፣ ቁጥሩንና ትርጉሙን ይመልከቱ።<div class="ar">نص القرآن مأخوذ مباشرة من مجمع الملك فهد (حفص، الإصدار ١٨)؛ يُرجى مراجعة اختيار المواضع والعدد والترجمة.</div></td></tr>
-<tr><td>4. የሐዲስ ቁጥሮች፦ ቡኻሪና ሙስሊም በ sunnah.com ቁጥር (ሙስሊም፦ ፉኣድ ዐብዱል ባቂ)።<div class="ar">أرقام الأحاديث على ترقيم sunnah.com (مسلم: ترقيم محمد فؤاد عبد الباقي).</div></td></tr>
-<tr><td><span class="chip l-s">✅ ከሱና · من السنة</span> <span class="chip l-e">🟡 የመምህራን ልምድ · من تجربة الرقاة</span> <span class="chip l-p">⚪ ጠቃሚ ልማድ · عادة نافعة</span></td></tr></table>
-<p style="margin-top:8mm">ገምጋሚ · المراجع: ______________________ &nbsp; ቀን · التاريخ: ____________</p></section>""")
+def _main():
+    parts = []
+    parts.append(f"""<section class="cover"><div class="quran" style="font-size:40pt;color:#2f84b8">رُقْيَتِي</div><h1>Ruqyati · ሩቅያቲ</h1>
+    <p style="font-size:14pt;font-weight:800">የዓሊም ግምገማ ጥቅል · ملف المراجعة الشرعية · Scholar review pack</p>
+    <p>ይህ ሰነድ በመተግበሪያው ውስጥ ያለውን ሁሉ ይዟል፦ እያንዳንዱ አንቀጽ፣ ዱዓ፣ ቁጥር፣ ምንጭ፣ ትርጉምና መመሪያ።<br>
+    <span class="ar" style="text-align:center;display:block">يحتوي هذا الملف كل ما في التطبيق: كل آية ودعاء وعدد ومصدر وترجمة وتعليمات.</span></p>
+    <table style="margin-top:8mm"><tr><th>እንዴት እንደሚገመገም · طريقة المراجعة</th></tr>
+    <tr><td>1. በእያንዳንዱ ካርድ ላይ <span class="box"></span>✓ (ትክክል) ወይም <span class="box"></span>✗ (ይስተካከል) ምልክት ያድርጉ፤ ማስተካከያውን በነጥብ መስመሩ ላይ ይጻፉ።<div class="ar">ضع علامة ✓ أو ✗ في كل بطاقة، واكتب التصحيح على السطر المنقّط.</div></td></tr>
+    <tr><td>2. በክፍል “ሀ” ያሉትን ጥያቄዎች ይመልሱ።<div class="ar">أجب عن أسئلة القسم «أ».</div></td></tr>
+    <tr><td>3. የቁርኣን ዐረብኛ ጽሑፍ ከንጉሥ ፋህድ ማተሚያ ማዕከል (ሐፍስ v18) በቀጥታ የተወሰደ ነው፤ እባክዎ የክፍሎቹን ምርጫ፣ ቁጥሩንና ትርጉሙን ይመልከቱ።<div class="ar">نص القرآن مأخوذ مباشرة من مجمع الملك فهد (حفص، الإصدار ١٨)؛ يُرجى مراجعة اختيار المواضع والعدد والترجمة.</div></td></tr>
+    <tr><td>4. የሐዲስ ቁጥሮች፦ ቡኻሪና ሙስሊም በ sunnah.com ቁጥር (ሙስሊም፦ ፉኣድ ዐብዱል ባቂ)።<div class="ar">أرقام الأحاديث على ترقيم sunnah.com (مسلم: ترقيم محمد فؤاد عبد الباقي).</div></td></tr>
+    <tr><td><span class="chip l-s">✅ ከሱና · من السنة</span> <span class="chip l-e">🟡 የመምህራን ልምድ · من تجربة الرقاة</span> <span class="chip l-p">⚪ ጠቃሚ ልማድ · عادة نافعة</span></td></tr></table>
+    <p style="margin-top:8mm">ገምጋሚ · المراجع: ______________________ &nbsp; ቀን · التاريخ: ____________</p></section>""")
 
-qa = ''.join(f'<div class="qrow"><span class="qn">{i}</span><div>{e(a)}<div class="ar">{e(b)}</div><div class="check">{yn()}</div><div class="lines"></div></div></div>' for i, (a, b) in enumerate(GENERAL_QS, 1))
-parts.append(f'<section class="part"><h2>ሀ · ለኡስታዙ ዋና ጥያቄዎች · أ · الأسئلة الرئيسة للشيخ</h2>{qa}</section>')
+    qa = ''.join(f'<div class="qrow"><span class="qn">{i}</span><div>{e(a)}<div class="ar">{e(b)}</div><div class="check">{yn()}</div><div class="lines"></div></div></div>' for i, (a, b) in enumerate(GENERAL_QS, 1))
+    parts.append(f'<section class="part"><h2>ሀ · ለኡስታዙ ዋና ጥያቄዎች · أ · الأسئلة الرئيسة للشيخ</h2>{qa}</section>')
 
-def routine_part(letter, rid, title):
-    seen = set()
-    cards = ''.join(step_card(i, s, rid, seen) for i, s in enumerate(R[rid]['steps'], 1))
-    extra = questions(EXTENDED_Q) if rid == 'extended' else ''
-    return f'<section class="part"><h2>{letter} · {title}</h2><p>{e(AM["routine_" + rid + "_desc"])} <span class="ar">{e(AR["routine_" + rid + "_desc"])}</span></p>{extra}{cards}</section>'
+    def routine_part(letter, rid, title):
+        seen = set()
+        cards = ''.join(step_card(i, s, rid, seen) for i, s in enumerate(R[rid]['steps'], 1))
+        extra = questions(EXTENDED_Q) if rid == 'extended' else ''
+        return f'<section class="part"><h2>{letter} · {title}</h2><p>{e(AM["routine_" + rid + "_desc"])} <span class="ar">{e(AR["routine_" + rid + "_desc"])}</span></p>{extra}{cards}</section>'
 
-parts.append(routine_part('ለ · ب', 'sunnah', f'<bdi>{AM["routine_sunnah"]}</bdi> · <bdi dir="rtl">{AR["routine_sunnah"]}</bdi>'))
-parts.append(routine_part('ሐ · ج', 'other', f'<bdi>{AM["routine_other"]}</bdi> · <bdi dir="rtl">{AR["routine_other"]}</bdi>'))
-parts.append(routine_part('መ · د', 'pain', f'<bdi>{AM["routine_pain"]}</bdi> · <bdi dir="rtl">{AR["routine_pain"]}</bdi>'))
-parts.append(routine_part('ሠ · هـ', 'extended', f'<bdi>{AM["routine_extended"]}</bdi> · <bdi dir="rtl">{AR["routine_extended"]}</bdi>'))
+    parts.append(routine_part('ለ · ب', 'sunnah', f'<bdi>{AM["routine_sunnah"]}</bdi> · <bdi dir="rtl">{AR["routine_sunnah"]}</bdi>'))
+    parts.append(routine_part('ሐ · ج', 'other', f'<bdi>{AM["routine_other"]}</bdi> · <bdi dir="rtl">{AR["routine_other"]}</bdi>'))
+    parts.append(routine_part('መ · د', 'pain', f'<bdi>{AM["routine_pain"]}</bdi> · <bdi dir="rtl">{AR["routine_pain"]}</bdi>'))
+    parts.append(routine_part('ሠ · هـ', 'extended', f'<bdi>{AM["routine_extended"]}</bdi> · <bdi dir="rtl">{AR["routine_extended"]}</bdi>'))
 
-arts = []
-for a in ART:
-    lab, cls = LABEL[a['label']]
-    rows = ''.join(f'<tr><td>{e(x)}</td><td class="ar">{e(y)}</td><td style="width:16mm"><span class="box"></span>✓<br><span class="box"></span>✗</td></tr>' for x, y in zip(a['body']['am'], a['body']['ar']))
-    src = ' · '.join(a['sources'])
-    arts.append(f'<div class="card"><div class="top"><span class="title">{e(a["title"]["am"])} · <span class="ar" style="display:inline">{e(a["title"]["ar"])}</span></span><span class="chip {cls}">{e(lab)}</span></div>'
-                f'<table>{rows}</table>{f"<div class=ev><b>ምንጭ · المصدر:</b> {e(src)}</div>" if src else ""}<div class="lines"></div></div>')
-parts.append(f'<section class="part"><h2>ረ · መመሪያዎች (ውሃ፣ ዘይት፣ ዓይን፣ ለሌሎች) · و · الإرشادات</h2>{"".join(arts)}</section>')
+    arts = []
+    for a in ART:
+        lab, cls = LABEL[a['label']]
+        rows = ''.join(f'<tr><td>{e(x)}</td><td class="ar">{e(y)}</td><td style="width:16mm"><span class="box"></span>✓<br><span class="box"></span>✗</td></tr>' for x, y in zip(a['body']['am'], a['body']['ar']))
+        src = ' · '.join(a['sources'])
+        arts.append(f'<div class="card"><div class="top"><span class="title">{e(a["title"]["am"])} · <span class="ar" style="display:inline">{e(a["title"]["ar"])}</span></span><span class="chip {cls}">{e(lab)}</span></div>'
+                    f'<table>{rows}</table>{f"<div class=ev><b>ምንጭ · المصدر:</b> {e(src)}</div>" if src else ""}<div class="lines"></div></div>')
+    parts.append(f'<section class="part"><h2>ረ · መመሪያዎች (ውሃ፣ ዘይት፣ ዓይን፣ ለሌሎች) · و · الإرشادات</h2>{"".join(arts)}</section>')
 
-parts.append("""<section class="part"><h2>ሰ · ማጽደቂያ · ز · الاعتماد</h2>
-<p>ይህን ሰነድ ገምግሜ ከላይ የተጻፉት ማስተካከያዎች ከተደረጉ መተግበሪያው ለሕዝብ እንዲቀርብ እፈቅዳለሁ።</p>
-<p class="ar">راجعتُ هذا الملف، وأوافق على نشر التطبيق بعد إجراء التصحيحات المكتوبة أعلاه.</p>
-<table style="margin-top:6mm"><tr><td style="height:14mm">ስም · الاسم</td><td></td></tr><tr><td style="height:14mm">መስጂድ / ተቋም · المسجد / الجهة</td><td></td></tr>
-<tr><td style="height:14mm">ስልክ · الهاتف</td><td></td></tr><tr><td style="height:14mm">ቀን · التاريخ</td><td></td></tr><tr><td style="height:24mm">ፊርማ · التوقيع</td><td></td></tr>
-<tr><td>ስሜ በመተግበሪያው ይጠቀስ · يُذكر اسمي في التطبيق</td><td><span class="box"></span> አዎ · نعم &nbsp; <span class="box"></span> አይ · لا</td></tr></table></section>""")
+    parts.append("""<section class="part"><h2>ሰ · ማጽደቂያ · ز · الاعتماد</h2>
+    <p>ይህን ሰነድ ገምግሜ ከላይ የተጻፉት ማስተካከያዎች ከተደረጉ መተግበሪያው ለሕዝብ እንዲቀርብ እፈቅዳለሁ።</p>
+    <p class="ar">راجعتُ هذا الملف، وأوافق على نشر التطبيق بعد إجراء التصحيحات المكتوبة أعلاه.</p>
+    <table style="margin-top:6mm"><tr><td style="height:14mm">ስም · الاسم</td><td></td></tr><tr><td style="height:14mm">መስጂድ / ተቋም · المسجد / الجهة</td><td></td></tr>
+    <tr><td style="height:14mm">ስልክ · الهاتف</td><td></td></tr><tr><td style="height:14mm">ቀን · التاريخ</td><td></td></tr><tr><td style="height:24mm">ፊርማ · التوقيع</td><td></td></tr>
+    <tr><td>ስሜ በመተግበሪያው ይጠቀስ · يُذكر اسمي في التطبيق</td><td><span class="box"></span> አዎ · نعم &nbsp; <span class="box"></span> አይ · لا</td></tr></table></section>""")
 
-open('/home/claude/review/pack.html', 'w').write(f'<!doctype html><html lang="am"><head><meta charset="utf-8"><style>{CSS}</style></head><body>{"".join(parts)}</body></html>')
-print('ok')
+    open('/home/claude/review/pack.html', 'w').write(f'<!doctype html><html lang="am"><head><meta charset="utf-8"><style>{CSS}</style></head><body>{"".join(parts)}</body></html>')
+    print('ok')
+
+if __name__ == "__main__":
+    _main()

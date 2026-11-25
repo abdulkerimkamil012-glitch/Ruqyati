@@ -6,3 +6,4 @@
 - 2026-11-24 · Hosting: added Cloudflare Pages settings (public/_headers, .node-version). Netlify kept as backup.
 - 2026-11-24 · Live on Cloudflare Workers: ruqyati.abdulkerimkamil012.workers.dev
 - 2026-11-25 · Scholar review pack (docs/review/, 50 pages, am/ar): every step, count, source, translation + 19 general questions. Found for review: Quls procedure (3 cycles in Bukhari 5017), 'right hand' wording (Muslim 2202 says 'your hand'), counts not fixed by hadith.
+- 2026-11-25 · Quick check for scholars: 2 pages, 12 decisions with our proposal + 9 duas (docs/review/Ruqyati-quick-check.pdf)
