@@ -1,0 +1,10 @@
+import { ROUTINES } from '/home/claude/ruqyati/src/content/routines';
+import { DUAS } from '/home/claude/ruqyati/src/content/duas';
+import { QURAN } from '/home/claude/ruqyati/src/content/quran';
+import { ARTICLES } from '/home/claude/ruqyati/src/content/articles';
+import { en } from '/home/claude/ruqyati/src/i18n/en';
+import { am } from '/home/claude/ruqyati/src/i18n/am';
+import { ar } from '/home/claude/ruqyati/src/i18n/ar';
+import { writeFileSync } from 'node:fs';
+writeFileSync('/home/claude/review/data.json', JSON.stringify({ ROUTINES, DUAS, QURAN, ARTICLES, en, am, ar }));
+console.log('ok');
