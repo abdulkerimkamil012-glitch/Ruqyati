@@ -17,3 +17,13 @@ export function tap(s: CounterState, now: number): CounterState {
 export function reached(count: number, target: Target): boolean {
   return target !== 'free' && count >= target;
 }
+
+/** Free counting fills the ring in rounds of 33, like a tasbīḥ. */
+export const FREE_ROUND = 33;
+
+/** How many ring segments to draw and how many are filled. One tap fills one segment. */
+export function ring(count: number, target: Target): { segments: number; filled: number } {
+  if (target !== 'free') return { segments: target, filled: Math.min(count, target) };
+  const filled = count === 0 ? 0 : ((count - 1) % FREE_ROUND) + 1;
+  return { segments: FREE_ROUND, filled };
+}

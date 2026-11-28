@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { Check } from 'lucide-react';
 import { reached, tap, TARGETS, type Target } from '../lib/counter';
 import { useApp } from '../state/app';
+import { CountRing } from './CountRing';
 
 /** Big tap circle. Count resets when the step changes (parent gives a new key). */
 export function Counter({ target, onTarget, onCount, onTargetChange }: {
@@ -40,11 +41,12 @@ export function Counter({ target, onTarget, onCount, onTargetChange }: {
         ))}
       </div>
       <button onClick={press} aria-label={`${t('tapToCount')}: ${count}`}
-        className={`relative grid size-36 shrink-0 select-none place-items-center rounded-full border-4 transition active:scale-95 ${isDone ? 'border-[var(--calm)] bg-[var(--calm-soft)]' : 'border-[var(--accent)] bg-[var(--surface)]'}`}>
-        {pulse > 0 && <span key={pulse} className="ripple pointer-events-none absolute inset-0 rounded-full border-4 border-[var(--accent)]" />}
+        className={`relative grid size-36 shrink-0 select-none place-items-center rounded-full transition active:scale-95 ${isDone ? 'bg-[var(--calm-soft)]' : 'bg-[var(--surface)]'}`}>
+        <CountRing count={count} target={target} done={isDone} />
+        {pulse > 0 && <span key={pulse} className="ripple pointer-events-none absolute inset-2 rounded-full border-2 border-[var(--accent)]" />}
         <span className="flex flex-col items-center">
-          {isDone ? <Check size={44} className="text-[var(--calm)]" /> : (
-            <span className="text-5xl font-black tabular-nums">{count}</span>
+          {isDone ? <Check size={44} className="count-pop text-[var(--calm)]" /> : (
+            <span key={count} className="count-pop text-5xl font-black tabular-nums">{count}</span>
           )}
           <span dir="ltr" className="text-xs font-bold text-[var(--muted)]">
             {target === 'free' ? t('recitedTimes', { n: count }) : `${Math.min(count, target)} / ${target}`}

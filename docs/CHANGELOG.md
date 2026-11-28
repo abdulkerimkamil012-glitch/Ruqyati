@@ -15,3 +15,4 @@
 - 2026-11-28 · Ustaz pack v3 (docs/review/Ruqyati-for-ustaz.pdf, 11 pages): Amharic letter only, app content only (27 items, full text + source), 18 questions answered by voice; no tick boxes.
 - 2026-11-28 · Sifted the أطباء الحرمين PDF and Al Bayan water article: 13 new passages, 9 authentic duas, 4 new routines (complete, fear, eye, water), grouped Home, "How the two sources were checked" article. 38 tests pass.
 - 2026-11-28 · Duʿāʾ pronunciation in Amharic letters for all 18 duʿāʾs (not Quran), with an on/off switch in Settings. Removed the 'checked' box from Home. 41 tests pass.
+- 2026-11-28 · Counter: segmented ring fills one segment per tap (×1/×3/×7; free = rounds of 33), number pops on each tap. 44 tests pass.

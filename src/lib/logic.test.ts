@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { addDays, dayKey, formatEthiopian, formatGregorian } from './dates';
 import { doneInLast30, streak } from './streak';
 import { buildIcs, googleCalendarUrl, isValidTime } from './reminder';
-import { reached, tap } from './counter';
+import { reached, ring, tap } from './counter';
 
 const T = '2026-11-23';
 const set = (...offsets: number[]) => new Set(offsets.map((o) => addDays(T, -o)));
@@ -74,5 +74,23 @@ describe('counter', () => {
     expect(reached(3, 3)).toBe(true);
     expect(reached(2, 3)).toBe(false);
     expect(reached(99, 'free')).toBe(false);
+  });
+});
+
+describe('counter ring', () => {
+  it('has one segment per time for 1, 3 and 7, filling one by one', () => {
+    expect(ring(0, 3)).toEqual({ segments: 3, filled: 0 });
+    expect(ring(1, 3)).toEqual({ segments: 3, filled: 1 });
+    expect(ring(2, 7)).toEqual({ segments: 7, filled: 2 });
+    expect(ring(1, 1)).toEqual({ segments: 1, filled: 1 });
+  });
+  it('never overfills after the target', () => {
+    expect(ring(9, 7)).toEqual({ segments: 7, filled: 7 });
+  });
+  it('free counting fills a round of 33, then starts the next round', () => {
+    expect(ring(0, 'free')).toEqual({ segments: 33, filled: 0 });
+    expect(ring(32, 'free')).toEqual({ segments: 33, filled: 32 });
+    expect(ring(33, 'free')).toEqual({ segments: 33, filled: 33 });
+    expect(ring(34, 'free')).toEqual({ segments: 33, filled: 1 });
   });
 });
