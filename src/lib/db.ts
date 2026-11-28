@@ -10,6 +10,7 @@ export interface Settings {
   lang: Lang;
   meaning: Meaning;
   translit: boolean;
+  amPron: boolean; // duʿāʾ pronunciation in Amharic letters (never for Quran)
   fontScale: number;
   theme: Theme;
   autoNext: boolean;
@@ -27,7 +28,7 @@ export interface Session {
 }
 
 export const DEFAULT_SETTINGS: Settings = {
-  id: 'app', lang: 'am', meaning: 'am', translit: true, fontScale: 1, theme: 'auto',
+  id: 'app', lang: 'am', meaning: 'am', translit: true, amPron: true, fontScale: 1, theme: 'auto',
   autoNext: true, onboarded: false, reminderTime: '06:30',
 };
 

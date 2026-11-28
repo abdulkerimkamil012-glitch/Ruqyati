@@ -22,4 +22,7 @@ export const enSheikh = {
   noteEyeVerse: 'Teachers recite this verse against the eye. 🟡: no hadith names it; the count of 7 is their practice.',
   noteChild: 'The Prophet ﷺ said this over his grandsons al-Ḥasan and al-Ḥusayn. For a girl, say “uʿīdhuki”.',
   noteSalawat: 'End your duʿāʾ with ṣalāh on the Prophet ﷺ.',
+  setAmPron: 'Duʿāʾ pronunciation in Amharic letters',
+  setAmPronHint: 'Only for duʿāʾs. The Quran is read from its Arabic text. Some Arabic sounds have no exact Amharic letter, so listen and learn them from a teacher.',
+  pronAm: 'Pronunciation',
 };

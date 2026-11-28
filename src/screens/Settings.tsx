@@ -35,6 +35,13 @@ export function SettingsScreen() {
           onChange={(lang) => update({ lang, meaning: lang === 'ar' ? settings.meaning : lang === 'en' && settings.meaning === 'am' ? 'en' : settings.meaning })} />)}
         {field(t('setMeaning'), <Segmented<Meaning> label={t('setMeaning')} value={settings.meaning} onChange={(meaning) => update({ meaning })}
           options={[{ value: 'am', text: LANG_NAMES.am }, { value: 'en', text: LANG_NAMES.en }, { value: 'none', text: t('off') }]} />)}
+        {field(t('setAmPron'), (
+          <div className="space-y-2">
+            <Segmented label={t('setAmPron')} value={settings.amPron ? 'on' : 'off'} onChange={(v) => update({ amPron: v === 'on' })}
+              options={[{ value: 'on', text: t('on') }, { value: 'off', text: t('off') }]} />
+            <p className="text-xs leading-relaxed text-[var(--muted)]">{t('setAmPronHint')}</p>
+          </div>
+        ))}
         {field(t('setTranslit'), <Segmented label={t('setTranslit')} value={settings.translit ? 'on' : 'off'} onChange={(v) => update({ translit: v === 'on' })}
           options={[{ value: 'on', text: t('on') }, { value: 'off', text: t('off') }]} />)}
         {field(t('setFont'), (

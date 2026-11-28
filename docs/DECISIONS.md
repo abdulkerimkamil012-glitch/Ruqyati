@@ -11,3 +11,8 @@
 | 2026-11-23 | No login, Dexie on-phone storage | Free app, privacy, offline |
 | 2026-11-23 | Own tiny screen router (no router package) | Few screens, fewer dependencies, fewer bugs |
 | 2026-11-24 | Hosting moves to **Cloudflare Pages** (free, unlimited bandwidth, 500 builds/month); Netlify kept as backup | Netlify free credits are low and traffic costs credits |
+
+## 2026-11-28 · Duʿāʾ pronunciation in Amharic letters
+- Setting `amPron` (default on). Shown only for duʿāʾs (`src/content/duas-am.ts`), never for Quran ayahs: the Quran is read from the Arabic text.
+- Letter rule: ع ዐ · ح ሐ · خ ኸ · ق ቀ · ط ጠ/ጧ · ص ሶ · ض ደ · ظ ዘ · ذ ዘ · ث ሠ · غ ገ. A hyphen marks run-on sounds (ሚነሽ-ሸይጧን); shown as a non-breaking hyphen.
+- 🔴 Part of the ustaz review.

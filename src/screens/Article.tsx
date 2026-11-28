@@ -3,6 +3,7 @@ import { useApp } from '../state/app';
 import { useNav } from '../state/nav';
 import { ARTICLES } from '../content/articles';
 import { DUAS } from '../content/duas';
+import { DUA_AM_PRON } from '../content/duas-am';
 import { ROUTINES } from '../content/routines';
 import type { RoutineId } from '../content/types';
 import { Badge, Button, TopBar } from '../components/ui';
@@ -29,7 +30,8 @@ export function ArticleScreen({ id }: { id: string }) {
         {a.id === 'evilEye' && (
           <div className="rounded-3xl bg-[var(--surface)] p-4">
             <p lang="ar" dir="rtl" className="naskh text-center text-2xl font-semibold">{DUAS.mashaAllah.ar}</p>
-            <p className="mt-1 text-center italic text-[var(--muted)]" dir="ltr">{DUAS.mashaAllah.tr}</p>
+            {settings.amPron && <p lang="am" className="mt-1 text-center text-lg font-semibold">{DUA_AM_PRON.mashaAllah.replaceAll('-', '\u2011')}</p>}
+            {settings.translit && <p className="mt-1 text-center italic text-[var(--muted)]" dir="ltr">{DUAS.mashaAllah.tr}</p>}
           </div>
         )}
         {a.links && (

@@ -1,6 +1,7 @@
 import { Hand, HandHeart, Heart, Wind, Info, Droplets, GlassWater } from 'lucide-react';
 import type { Step } from '../content/types';
 import { DUAS } from '../content/duas';
+import { DUA_AM_PRON } from '../content/duas-am';
 import { audioUrl, needsBasmala, passage } from '../content/quran';
 import { useApp } from '../state/app';
 import { AudioButton } from './AudioButton';
@@ -46,6 +47,12 @@ export function StepContent({ step, onAudioError }: { step: Step; onAudioError: 
       <div className="space-y-4">
         {note && <p className="rounded-2xl bg-[var(--surface)] p-3 text-sm text-[var(--muted)]"><Hand size={16} className="me-1 inline" />{note}</p>}
         <p lang="ar" dir="rtl" className="naskh text-center font-semibold" style={{ fontSize: `${1.7 * fs}rem` }}>{d.ar}</p>
+        {settings.amPron && (
+          <div lang="am" className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] px-4 py-3 text-center">
+            <span className="block text-xs font-extrabold text-[var(--muted)]">{t('pronAm')}</span>
+            <span className="mt-1 block text-lg font-semibold leading-loose" style={{ fontSize: `${1.05 * fs}rem` }}>{DUA_AM_PRON[d.id].replaceAll('-', '\u2011')}</span>
+          </div>
+        )}
         {settings.translit && <p className="text-center italic text-[var(--muted)]" dir="ltr">{d.tr}</p>}
         {meaning !== 'none' && <p className="text-center leading-relaxed">{d[meaning]}</p>}
         {d.adapted && <p className="text-center text-xs text-[var(--muted)]">{t('adaptedNote')}</p>}
