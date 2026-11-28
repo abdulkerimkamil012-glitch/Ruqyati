@@ -4,8 +4,6 @@ export const arSheikh = {
   routine_eye: 'العين والحسد', routine_eye_desc: 'ما استعمله النبي ﷺ للعين. نحو 5 دقائق.',
   routine_water: 'الرقية على الماء', routine_water_desc: 'اقرأ على الماء وانفث، ثم اشرب وامسح. نحو 8 دقائق.',
   group_daily: 'كل يوم', group_needed: 'عند الحاجة', group_loved: 'لمن تحب',
-  homeChecked: 'كل خطوة رُوجعت على القرآن والحديث الصحيح.',
-  homeCheckedLink: 'انظر ما أُبقي وما حُذف',
   step_blowWater: 'انفث على الماء', step_useWater: 'استعمل الماء', step_waterSalt: 'الماء والملح', step_eyeWash: 'إن عرفت العائن', step_sifted: 'عن هذه القائمة',
   dua_hammaSelf: 'من كل عين لامة', dua_hammaOther: 'تعويذ النبي ﷺ للصغار', dua_yubrik: 'رقية جبريل من العين',
   dua_khanbash: 'من شر كل طارق', dua_fazaa: 'دعاء الفزع', dua_hamz: 'من همز الشيطان', dua_laYadurr: 'لا يضر مع اسمه شيء',

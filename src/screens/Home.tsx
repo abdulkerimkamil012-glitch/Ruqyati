@@ -1,4 +1,4 @@
-import { CheckCircle2, ChevronRight, ChevronLeft, Flame, HandHeart, Hand, Sparkles, Moon, BookOpenCheck, CloudMoon, Eye, Droplets, ShieldCheck } from 'lucide-react';
+import { CheckCircle2, ChevronRight, ChevronLeft, Flame, HandHeart, Hand, Sparkles, Moon, BookOpenCheck, CloudMoon, Eye, Droplets } from 'lucide-react';
 import { useApp } from '../state/app';
 import { useNav } from '../state/nav';
 import { Button } from '../components/ui';
@@ -57,14 +57,6 @@ export function Home() {
           </button>
         )}
         <Button className="w-full text-lg" onClick={() => begin('sunnah')}>{t('startRuqyah')}</Button>
-        <button onClick={() => go({ name: 'article', id: 'sifted' })}
-          className="flex w-full items-start gap-2.5 rounded-2xl bg-[var(--calm-soft)] px-3.5 py-3 text-start text-sm">
-          <ShieldCheck size={20} className="mt-0.5 shrink-0 text-[var(--calm)]" />
-          <span>
-            <span className="block font-bold">{t('homeChecked')}</span>
-            <span className="font-extrabold text-[var(--accent)] underline underline-offset-2">{t('homeCheckedLink')}</span>
-          </span>
-        </button>
         {ROUTINE_GROUPS.map((g) => (
           <div key={g.id}>
             <h2 className="pb-2 pt-4 text-sm font-extrabold text-[var(--muted)]">{t(`group_${g.id}`)}</h2>

@@ -5,8 +5,6 @@ export const enSheikh = {
   routine_eye: 'Evil eye and envy', routine_eye_desc: 'What the Prophet ﷺ used against the eye. About 5 minutes.',
   routine_water: 'Ruqyah water', routine_water_desc: 'Recite over water, blow, then drink and wipe. About 8 minutes.',
   group_daily: 'Every day', group_needed: 'When you need it', group_loved: 'For someone you love',
-  homeChecked: 'Every step was checked against the Quran and authentic hadith.',
-  homeCheckedLink: 'See what was kept and removed',
   step_blowWater: 'Blow over the water', step_useWater: 'Use the water', step_waterSalt: 'Water and salt', step_eyeWash: 'If you know whose eye it was', step_sifted: 'About this list',
   dua_hammaSelf: 'Against every eye', dua_hammaOther: 'The Prophet’s ﷺ protection for children', dua_yubrik: 'Jibrīl’s ruqyah against the eye',
   dua_khanbash: 'Against the night visitor', dua_fazaa: 'Duʿāʾ for fear', dua_hamz: 'Refuge from Satan’s touch', dua_laYadurr: 'Nothing harms with His name',

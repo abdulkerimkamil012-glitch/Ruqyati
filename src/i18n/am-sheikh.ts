@@ -4,8 +4,6 @@ export const amSheikh = {
   routine_eye: 'ክፉ ዓይንና ምቀኝነት', routine_eye_desc: 'ነቢዩ ﷺ በዓይን ላይ የተጠቀሙበት። 5 ደቂቃ ያህል።',
   routine_water: 'የሩቅያ ውሃ', routine_water_desc: 'በውሃ ላይ አንብበው እፍ ይበሉ፤ ከዚያ ይጠጡና ያብሱ። 8 ደቂቃ ያህል።',
   group_daily: 'በየቀኑ', group_needed: 'ሲያስፈልግዎ', group_loved: 'ለሚወዱት ሰው',
-  homeChecked: 'እያንዳንዱ ደረጃ ከቁርኣንና ከትክክለኛ ሐዲስ ጋር ተረጋግጧል።',
-  homeCheckedLink: 'የቀረውንና የተወገደውን ይመልከቱ',
   step_blowWater: 'በውሃው ላይ እፍ ይበሉ', step_useWater: 'ውሃውን ይጠቀሙ', step_waterSalt: 'ውሃና ጨው', step_eyeWash: 'የማን ዓይን እንደሆነ ካወቁ', step_sifted: 'ስለዚህ ዝርዝር',
   dua_hammaSelf: 'ከክፉ ዓይን ሁሉ', dua_hammaOther: 'ነቢዩ ﷺ ለልጆች ያደረጉት ጥበቃ', dua_yubrik: 'የጅብሪል ሩቅያ ለዓይን',
   dua_khanbash: 'ከሌሊት መጪ ክፋት', dua_fazaa: 'የፍርሃት ዱዓ', dua_hamz: 'ከሰይጣን ንክኪ መጠበቅ', dua_laYadurr: 'ከስሙ ጋር ምንም አይጎዳም',
