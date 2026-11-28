@@ -1,4 +1,4 @@
-import { Hand, HandHeart, Heart, Wind, Info } from 'lucide-react';
+import { Hand, HandHeart, Heart, Wind, Info, Droplets, GlassWater } from 'lucide-react';
 import type { Step } from '../content/types';
 import { DUAS } from '../content/duas';
 import { audioUrl, needsBasmala, passage } from '../content/quran';
@@ -13,9 +13,10 @@ export function StepTitle({ step }: { step: Step }) {
   if (step.kind === 'passage') {
     const p = passage(step.ref!);
     const range = p.from === 1 && p.ayahs.length > 1 && p.surah !== 2 ? '' : ` ${p.surah}:${p.from}${p.to > p.from ? `–${p.to}` : ''}`;
-    return <>{settings.lang === 'ar' ? `سورة ${p.nameAr}` : p.nameEn}<span className="font-semibold text-[var(--muted)]">{range}</span></>;
+    return <>{settings.lang === 'ar' ? `سورة ${p.nameAr}` : p.nameEn}<bdi dir="ltr" className="ms-1.5 font-semibold text-[var(--muted)]">{range.trim()}</bdi></>;
   }
   if (step.kind === 'dua') return <>{t(`dua_${step.ref}` as 'dua_istiadha')}</>;
+  if (step.kind === 'note' && step.titleKey) return <>{t(step.titleKey)}</>;
   return <>{t(`step_${step.kind}` as 'step_note')}</>;
 }
 
@@ -36,6 +37,8 @@ export function StepContent({ step, onAudioError }: { step: Step; onAudioError: 
   if (step.kind === 'blowWipe') return action(Wind);
   if (step.kind === 'handOnHead') return action(HandHeart);
   if (step.kind === 'note') return action(Info);
+  if (step.kind === 'blowWater') return action(Droplets);
+  if (step.kind === 'useWater') return action(GlassWater);
 
   if (step.kind === 'dua') {
     const d = DUAS[step.ref!];

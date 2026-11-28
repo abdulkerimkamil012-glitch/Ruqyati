@@ -1,4 +1,5 @@
 import { enMore } from './en-more';
+import { enSheikh } from './en-sheikh';
 
 const enCore = {
   appName: 'Ruqyati',
@@ -71,6 +72,6 @@ const enCore = {
   autoNext: 'Next step when the count is reached',
 };
 
-export const en = { ...enCore, ...enMore };
+export const en = { ...enCore, ...enMore, ...enSheikh };
 export type Key = keyof typeof en;
 export type Dict = { [K in keyof typeof en]: string };

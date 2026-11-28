@@ -1,6 +1,7 @@
 // 🔴 RED file: every change needs scholar review (CLAUDE.md).
 // Arabic wording follows the hadith collections cited in `source`.
 import type { Label } from './types';
+import { DUAS_MORE } from './duas-more';
 
 export interface Dua {
   id: string;
@@ -13,7 +14,7 @@ export interface Dua {
   adapted?: boolean; // wording turned to first person for self-ruqyah
 }
 
-export const DUAS: Record<string, Dua> = {
+const DUAS_CORE: Record<string, Dua> = {
   istiadha: {
     id: 'istiadha',
     ar: 'أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ',
@@ -97,3 +98,5 @@ export const DUAS: Record<string, Dua> = {
     label: 'sunnah',
   },
 };
+
+export const DUAS: Record<string, Dua> = { ...DUAS_CORE, ...DUAS_MORE };

@@ -126,3 +126,11 @@ He adds: "if you want to move some of it" (shorten), **you could drop aṣ-Ṣā
 - Shaykh **'Aziz Farhan al-'Anizi**
 - **Ali Aziz**, fitrahcentre.com
 - TikTok: al.wiqayah · abostani · ietvcontents · remindersfromallah · ironfitcoaching · fatima89429
+
+## Added Nov 2026: sifted from the owner's two sources (🔴 awaiting ustaz review)
+Sources: «الرقية الشرعية من الكتاب والسنة» (أطباء الحرمين, saaid.net) and Al Bayan "كيفية الرقية الشرعية على الماء".
+- ✅ duas: hammaSelf/hammaOther (Bukhari 3371), yubrik (Muslim 2185), khanbash (Ahmad 15460, as-Sahihah 2995 hasan), fazaa (Tirmidhi 3528 / Abu Dawud 3893 hasan), hamz (Abu Dawud 775), laYadurr (Abu Dawud 5088), karb (Bukhari 6346), salawat (Bukhari 3370).
+- ✅ ʿAlī's water-and-salt hadith with al-Kāfirūn, al-Falaq, an-Nās (Tabarani al-Awsat 5890, as-Sahihah 548).
+- 🟡 verses: 2:1–5, 2:102, 2:163–164, 3:190–191, 7:54, 7:117–122, 10:79–82, 20:65–69, 23:115–118, 17:82, 67:3–4, 72:3.
+- ❌ removed: 2:20 for the eye; «تحصنت بالله…»; «حسبي الرب من العباد…». Not added: Abu Dardaʾ «اللهم أنت ربي…» (weak), Kaʿb's «أعوذ بوجه الله العظيم» (mawquf), Abu Dawud 5052 (disputed, for the ustaz).
+- New routines: complete 🟡, fear ✅, eye ✅, water 🟡; child routine gained Muslim 2185 and Bukhari 3371.

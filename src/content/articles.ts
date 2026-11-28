@@ -1,6 +1,7 @@
 import type { Lang } from '../lib/dates';
 import type { Label } from './types';
 import { ARTICLES_MORE } from './articles-more';
+import { SIFTED } from './articles-sheikh';
 
 export interface Article {
   id: string;
@@ -12,6 +13,7 @@ export interface Article {
 }
 
 export const ARTICLES: Article[] = [
+  SIFTED,
   {
     id: 'selfBest',
     label: 'sunnah',

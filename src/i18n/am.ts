@@ -1,5 +1,6 @@
 import type { Dict } from './en';
 import { amMore } from './am-more';
+import { amSheikh } from './am-sheikh';
 
 const amCore = {
   appName: 'ሩቅያቲ',
@@ -67,4 +68,4 @@ const amCore = {
   autoNext: 'ቁጥሩ ሲሞላ ወደ ቀጣዩ ደረጃ',
 };
 
-export const am: Dict = { ...amCore, ...amMore };
+export const am: Dict = { ...amCore, ...amMore, ...amSheikh };

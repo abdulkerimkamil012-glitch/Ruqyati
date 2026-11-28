@@ -17,6 +17,10 @@ export const PASSAGES = {
   ikhlas: [112, 1, 4], falaq: [113, 1, 5], nas: [114, 1, 6],
   imranStart: [3, 1, 5], imranEnd: [3, 190, 200], saffat: [37, 1, 10], jinn: [72, 1, 28],
   hashrEnd: [59, 21, 24], qalamEnd: [68, 51, 52], kahf39: [18, 39, 39], basmala: [1, 1, 1],
+  // Added from the two sources the owner sent (أطباء الحرمين PDF, Al Bayan article), sifted. Never 2:20.
+  baqarahStart: [2, 1, 5], baqarah163: [2, 163, 164], baqarah102: [2, 102, 102], araf54: [7, 54, 54],
+  araf117: [7, 117, 122], yunus79: [10, 79, 82], taha65: [20, 65, 69], muminun115: [23, 115, 118],
+  isra82: [17, 82, 82], mulk3: [67, 3, 4], jinn3: [72, 3, 3], imran190: [3, 190, 191], kafirun: [109, 1, 6],
 };
 
 const cacheDir = '.cache-quran';

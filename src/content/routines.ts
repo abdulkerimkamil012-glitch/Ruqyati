@@ -1,13 +1,6 @@
-import type { Routine, Step } from './types';
-
-const s = (id: string, kind: Step['kind'], ref: string | undefined, count: Step['count'], label: Step['label'], extra: Partial<Step> = {}): Step =>
-  ({ id, kind, ref, count, label, ...extra });
-
-const quls = (label: Step['label'] = 'sunnah'): Step[] => [
-  s('ikhlas', 'passage', 'ikhlas', 3, label, { noteKey: 'noteQuls', source: 'Bukhari 5017, 5751' }),
-  s('falaq', 'passage', 'falaq', 3, label, { noteKey: 'noteQuls', source: 'Bukhari 5017, 5751' }),
-  s('nas', 'passage', 'nas', 3, label, { noteKey: 'noteQuls', source: 'Bukhari 5017, 5751' }),
-];
+import type { Routine, RoutineId } from './types';
+import { quls, s } from './routine-kit';
+import { complete, eye, fear, water } from './routines-more';
 
 /** ✅ Default: Sunnah only (videos 1, 3, 4, 5, 9, 10). */
 const sunnah: Routine = {
@@ -63,6 +56,8 @@ const other: Routine = {
     ...quls(),
     s('blowWipe', 'blowWipe', undefined, 1, 'sunnah', { noteKey: 'noteBlowWipe', source: 'Bukhari 5751' }),
     s('jibrilOther', 'dua', 'jibrilOther', 3, 'sunnah', { source: 'Muslim 2186' }),
+    s('yubrik', 'dua', 'yubrik', 3, 'sunnah', { source: 'Muslim 2185' }),
+    s('hammaOther', 'dua', 'hammaOther', 3, 'sunnah', { noteKey: 'noteChild', source: 'Bukhari 3371' }),
     s('asalu', 'dua', 'asalu', 7, 'sunnah', { source: 'Abu Dawud 3106 · Tirmidhi 2083' }),
     s('adhhib', 'dua', 'adhhib', 3, 'sunnah', { source: 'Bukhari 5743 · Muslim 2191' }),
   ],
@@ -77,4 +72,11 @@ const pain: Routine = {
   ],
 };
 
-export const ROUTINES: Record<Routine['id'], Routine> = { sunnah, extended, other, pain };
+export const ROUTINES: Record<RoutineId, Routine> = { sunnah, extended, complete, pain, fear, eye, water, other };
+
+/** How Home groups the routines. */
+export const ROUTINE_GROUPS: { id: 'daily' | 'needed' | 'loved'; ids: RoutineId[] }[] = [
+  { id: 'daily', ids: ['sunnah', 'extended', 'complete'] },
+  { id: 'needed', ids: ['pain', 'fear', 'eye', 'water'] },
+  { id: 'loved', ids: ['other'] },
+];

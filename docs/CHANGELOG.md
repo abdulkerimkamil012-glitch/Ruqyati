@@ -1,5 +1,6 @@
 # CHANGELOG
 
+- 2026-11-28: Sifted the أطباء الحرمين PDF and Al Bayan water article: 13 new passages, 9 authentic duas, 4 new routines (complete, fear, eye, water), grouped Home, "How the two sources were checked" article. 38 tests pass.
 - 2026-11-23 · Planning docs added (idea, spec, content map, plan, todo, decisions)
 - 2026-11-23 · v1.0.0: whole app built: Sunnah / extended / child-spouse / pain ruqyah, session player with counter + Alafasy audio, library & guidance, 30-day tracker with Ethiopian dates, calendar reminders, am/ar/en, light/night, offline PWA
 - Rule: in RTL, numeric ratios like "3 / 14" need dir="ltr". Learned from: Arabic step counter showed "14 / 3".

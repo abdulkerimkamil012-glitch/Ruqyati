@@ -1,5 +1,6 @@
 import type { Dict } from './en';
 import { arMore } from './ar-more';
+import { arSheikh } from './ar-sheikh';
 
 const arCore = {
   appName: 'رقيتي',
@@ -67,4 +68,4 @@ const arCore = {
   autoNext: 'الانتقال للخطوة التالية عند اكتمال العدد',
 };
 
-export const ar: Dict = { ...arCore, ...arMore };
+export const ar: Dict = { ...arCore, ...arMore, ...arSheikh };

@@ -1,14 +1,16 @@
-import { CheckCircle2, ChevronRight, ChevronLeft, Flame, HandHeart, Hand, Sparkles, Moon } from 'lucide-react';
+import { CheckCircle2, ChevronRight, ChevronLeft, Flame, HandHeart, Hand, Sparkles, Moon, BookOpenCheck, CloudMoon, Eye, Droplets, ShieldCheck } from 'lucide-react';
 import { useApp } from '../state/app';
 import { useNav } from '../state/nav';
 import { Button } from '../components/ui';
 import { Horizon } from '../components/Horizon';
-import { ROUTINES } from '../content/routines';
+import { ROUTINES, ROUTINE_GROUPS } from '../content/routines';
 import type { RoutineId } from '../content/types';
 import { dayKey } from '../lib/dates';
 import { doneInLast30, streak } from '../lib/streak';
 
-const ROUTINE_ICON: Record<RoutineId, typeof Sparkles> = { sunnah: Sparkles, extended: Moon, other: HandHeart, pain: Hand };
+const ROUTINE_ICON: Record<RoutineId, typeof Sparkles> = {
+  sunnah: Sparkles, extended: Moon, complete: BookOpenCheck, pain: Hand, fear: CloudMoon, eye: Eye, water: Droplets, other: HandHeart,
+};
 
 export function Home() {
   const { t, doneDays, openSession, start, dir } = useApp();
@@ -55,27 +57,39 @@ export function Home() {
           </button>
         )}
         <Button className="w-full text-lg" onClick={() => begin('sunnah')}>{t('startRuqyah')}</Button>
-        <h2 className="pt-4 text-sm font-extrabold text-[var(--muted)]">{t('chooseTitle')}</h2>
-        <ul className="space-y-2">
-          {(Object.keys(ROUTINES) as RoutineId[]).map((id) => {
-            const Icon = ROUTINE_ICON[id];
-            const r = ROUTINES[id];
-            return (
-              <li key={id}>
-                <button onClick={() => begin(id)} className="flex w-full items-center gap-3 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-3 text-start">
-                  <span className={`grid size-11 shrink-0 place-items-center rounded-2xl ${r.label === 'experience' ? 'bg-[var(--warm)] text-[var(--warm-ink)]' : 'bg-[var(--calm-soft)] text-[var(--calm)]'}`}>
-                    <Icon size={22} />
-                  </span>
-                  <span className="min-w-0 flex-1">
-                    <span className="block font-extrabold">{t(`routine_${id}`)}</span>
-                    <span className="block text-sm text-[var(--muted)]">{t(`routine_${id}_desc`)}</span>
-                  </span>
-                  <Chevron size={18} className="shrink-0 text-[var(--muted)]" />
-                </button>
-              </li>
-            );
-          })}
-        </ul>
+        <button onClick={() => go({ name: 'article', id: 'sifted' })}
+          className="flex w-full items-start gap-2.5 rounded-2xl bg-[var(--calm-soft)] px-3.5 py-3 text-start text-sm">
+          <ShieldCheck size={20} className="mt-0.5 shrink-0 text-[var(--calm)]" />
+          <span>
+            <span className="block font-bold">{t('homeChecked')}</span>
+            <span className="font-extrabold text-[var(--accent)] underline underline-offset-2">{t('homeCheckedLink')}</span>
+          </span>
+        </button>
+        {ROUTINE_GROUPS.map((g) => (
+          <div key={g.id}>
+            <h2 className="pb-2 pt-4 text-sm font-extrabold text-[var(--muted)]">{t(`group_${g.id}`)}</h2>
+            <ul className="space-y-2">
+              {g.ids.map((id) => {
+                const Icon = ROUTINE_ICON[id];
+                const r = ROUTINES[id];
+                return (
+                  <li key={id}>
+                    <button onClick={() => begin(id)} className="flex w-full items-center gap-3 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-3 text-start">
+                      <span className={`grid size-11 shrink-0 place-items-center rounded-2xl ${r.label === 'experience' ? 'bg-[var(--warm)] text-[var(--warm-ink)]' : 'bg-[var(--calm-soft)] text-[var(--calm)]'}`}>
+                        <Icon size={22} />
+                      </span>
+                      <span className="min-w-0 flex-1">
+                        <span className="block font-extrabold">{t(`routine_${id}`)} <span aria-hidden>{r.label === 'experience' ? '🟡' : '✅'}</span></span>
+                        <span className="block text-sm text-[var(--muted)]">{t(`routine_${id}_desc`)}</span>
+                      </span>
+                      <Chevron size={18} className="shrink-0 text-[var(--muted)]" />
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ))}
       </section>
     </main>
   );

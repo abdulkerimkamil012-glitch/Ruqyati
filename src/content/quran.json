@@ -6,8 +6,8 @@
    "en": "https://raw.githubusercontent.com/fawazahmed0/quran-api/1/editions/eng-ummmuhammad.json",
    "tr": "https://raw.githubusercontent.com/fawazahmed0/quran-api/1/editions/ara-quran-la.json"
   },
-  "generated": "2026-11-23",
-  "arabicSha256": "1b641b375417c547911fe0fa046cb1b1598ffb79b0c110647a05464d37717340"
+  "generated": "2026-11-28",
+  "arabicSha256": "ec462a1faac68b8ec11001d6251c43e6e770e7d982aa1f5b0fc113424afdd9ad"
  },
  "passages": {
   "fatiha": {
@@ -862,6 +862,443 @@
      "am": "በአላህ ስም እጅግ በጣም ሩኅሩህ በጣም አዛኝ በኾነው፡፡",
      "en": "In the name of Allah, the Entirely Merciful, the Especially Merciful",
      "tr": "Bismi Allahi alrrahmani alrraheemi"
+    }
+   ]
+  },
+  "baqarahStart": {
+   "surah": 2,
+   "nameAr": "البَقَرَة",
+   "nameEn": "Al-Baqarah",
+   "from": 1,
+   "to": 5,
+   "ayahs": [
+    {
+     "s": 2,
+     "a": 1,
+     "ar": "الٓمٓ ١",
+     "am": "አ.ለ.መ",
+     "en": "Alif, Lam, Meem",
+     "tr": "Aliflammeem"
+    },
+    {
+     "s": 2,
+     "a": 2,
+     "ar": "ذَٰلِكَ ٱلۡكِتَٰبُ لَا رَيۡبَۛ فِيهِۛ هُدٗى لِّلۡمُتَّقِينَ ٢",
+     "am": "ይህ መጽሐፍ (ከአላህ ለመኾኑ) ጥርጥር የለበትም፤ ለፈራህያን መሪ ነው፡፡",
+     "en": "This is the Book about which there is no doubt, a guidance for those conscious of Allah",
+     "tr": "Thalika alkitabu la rayba feehi hudan lilmuttaqeena"
+    },
+    {
+     "s": 2,
+     "a": 3,
+     "ar": "ٱلَّذِينَ يُؤۡمِنُونَ بِٱلۡغَيۡبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقۡنَٰهُمۡ يُنفِقُونَ ٣",
+     "am": "ለነዚያ በሩቁ ነገር የሚያምኑ ሶላትንም ደንቡን ጠብቀው የሚሰግዱ ከሰጠናቸውም ሲሳይ የሚቸሩ ለኾኑት፤",
+     "en": "Who believe in the unseen, establish prayer, and spend out of what We have provided for them",
+     "tr": "Allatheena yuminoona bialghaybi wayuqeemoona alssalata wamimma razaqnahum yunfiqoona"
+    },
+    {
+     "s": 2,
+     "a": 4,
+     "ar": "وَٱلَّذِينَ يُؤۡمِنُونَ بِمَآ أُنزِلَ إِلَيۡكَ وَمَآ أُنزِلَ مِن قَبۡلِكَ وَبِٱلۡأٓخِرَةِ هُمۡ يُوقِنُونَ ٤",
+     "am": "ለእነዚያም ወደ አንተ በተወረደውና ከአንተ በፊትም በተወረደው የሚያምኑ በመጨረሻይቱም (ዓለም) እነርሱ የሚያረጋግጡ ለኾኑት (መሪ ነው)፡፡",
+     "en": "And who believe in what has been revealed to you, [O Muhammad], and what was revealed before you, and of the Hereafter they are certain [in faith]",
+     "tr": "Waallatheena yuminoona bima onzila ilayka wama onzila min qablika wabialakhirati hum yooqinoona"
+    },
+    {
+     "s": 2,
+     "a": 5,
+     "ar": "أُوْلَٰٓئِكَ عَلَىٰ هُدٗى مِّن رَّبِّهِمۡۖ وَأُوْلَٰٓئِكَ هُمُ ٱلۡمُفۡلِحُونَ ٥",
+     "am": "እነዚያ ከጌታቸው በመመራት ላይ ናቸው፤ እነዚያም እነሱ ፍላጎታቸውን ያገኙ ናቸው፡፡",
+     "en": "Those are upon [right] guidance from their Lord, and it is those who are the successful",
+     "tr": "Olaika ʿala hudan min rabbihim waolaika humu almuflihoona"
+    }
+   ]
+  },
+  "baqarah163": {
+   "surah": 2,
+   "nameAr": "البَقَرَة",
+   "nameEn": "Al-Baqarah",
+   "from": 163,
+   "to": 164,
+   "ayahs": [
+    {
+     "s": 2,
+     "a": 163,
+     "ar": "وَإِلَٰهُكُمۡ إِلَٰهٞ وَٰحِدٞۖ لَّآ إِلَٰهَ إِلَّا هُوَ ٱلرَّحۡمَٰنُ ٱلرَّحِيمُ ١٦٣",
+     "am": "አምላካችሁም አንድ አምላክ ብቻ ነው፤ ከርሱ በቀር ሌላ አምላክ የለም፡፡ (እርሱ) እጅግ በጣም ርኅሩህ አዛኝ ነው፡፡",
+     "en": "And your god is one God. There is no deity [worthy of worship] except Him, the Entirely Merciful, the Especially Merciful",
+     "tr": "Wailahukum ilahun wahidun la ilaha illa huwa alrrahmanu alrraheemu"
+    },
+    {
+     "s": 2,
+     "a": 164,
+     "ar": "إِنَّ فِي خَلۡقِ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ وَٱخۡتِلَٰفِ ٱلَّيۡلِ وَٱلنَّهَارِ وَٱلۡفُلۡكِ ٱلَّتِي تَجۡرِي فِي ٱلۡبَحۡرِ بِمَا يَنفَعُ ٱلنَّاسَ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن مَّآءٖ فَأَحۡيَا بِهِ ٱلۡأَرۡضَ بَعۡدَ مَوۡتِهَا وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٖ وَتَصۡرِيفِ ٱلرِّيَٰحِ وَٱلسَّحَابِ ٱلۡمُسَخَّرِ بَيۡنَ ٱلسَّمَآءِ وَٱلۡأَرۡضِ لَأٓيَٰتٖ لِّقَوۡمٖ يَعۡقِلُونَ ١٦٤",
+     "am": "ሰማያትንና ምድርን በመፍጠር ሌሊትንና ቀንንም በማተካካት፣ በዚያቸም ሰዎችን በሚጠቅም ነገር (ተጭና) በባህር ላይ በምትንሻለለው ታንኳ፣ አላህም ከሰማይ ባወረደው ውሃና በርሱም ምድርን ከሞተች በኋላ ሕያው በማድረጉ፣ በርሷም ውስጥ ከተንቀሳቃሽ ሁሉ በመበተኑ፣ ነፋሶችንም (በየአግጣጫው) በማገለባበጥ፣ በሰማይና በምድር መካከል በሚነዳውም ደመና ለሚያውቁ ሕዝቦች እርግጠኛ ምልክቶች አሉ፡፡",
+     "en": "Indeed, in the creation of the heavens and earth, and the alternation of the night and the day, and the [great] ships which sail through the sea with that which benefits people, and what Allah has sent down from the heavens of rain, giving life thereby to the earth after its lifelessness and dispersing therein every [kind of] moving creature, and [His] directing of the winds and the clouds controlled between the heaven and the earth are signs for a people who use reason",
+     "tr": "Inna fee khalqi alssamawati waalardi waikhtilafi allayli waalnnahari waalfulki allatee tajree fee albahri bima yanfaʿu alnnasa wama anzala Allahu mina alssamai min main faahya bihi alarda baʿda mawtiha wabaththa feeha min kulli dabbatin watasreefi alrriyahi waalssahabi almusakhkhari bayna alssamai waalardi laayatin liqawmin yaʿqiloona"
+    }
+   ]
+  },
+  "baqarah102": {
+   "surah": 2,
+   "nameAr": "البَقَرَة",
+   "nameEn": "Al-Baqarah",
+   "from": 102,
+   "to": 102,
+   "ayahs": [
+    {
+     "s": 2,
+     "a": 102,
+     "ar": "وَٱتَّبَعُواْ مَا تَتۡلُواْ ٱلشَّيَٰطِينُ عَلَىٰ مُلۡكِ سُلَيۡمَٰنَۖ وَمَا كَفَرَ سُلَيۡمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُواْ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحۡرَ وَمَآ أُنزِلَ عَلَى ٱلۡمَلَكَيۡنِ بِبَابِلَ هَٰرُوتَ وَمَٰرُوتَۚ وَمَا يُعَلِّمَانِ مِنۡ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحۡنُ فِتۡنَةٞ فَلَا تَكۡفُرۡۖ فَيَتَعَلَّمُونَ مِنۡهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيۡنَ ٱلۡمَرۡءِ وَزَوۡجِهِۦۚ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنۡ أَحَدٍ إِلَّا بِإِذۡنِ ٱللَّهِۚ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمۡ وَلَا يَنفَعُهُمۡۚ وَلَقَدۡ عَلِمُواْ لَمَنِ ٱشۡتَرَىٰهُ مَا لَهُۥ فِي ٱلۡأٓخِرَةِ مِنۡ خَلَٰقٖۚ وَلَبِئۡسَ مَا شَرَوۡاْ بِهِۦٓ أَنفُسَهُمۡۚ لَوۡ كَانُواْ يَعۡلَمُونَ ١٠٢",
+     "am": "ሰይጣናትም በሱለይማን (ሰሎሞን) ዘመነ መንግስት የሚያነቡትን (ድግምት) ተከተሉ፡፡ ሱለይማንም አልካደም፤ (ድግምተኛ አልነበረም)፤ ግን ሰይጣናት ሰዎችን ድግምትን የሚያስተምሩ ሲኾኑ ካዱ፡፡ ያንንም በባቢል በሁለቱ መላእክት በሃሩትና ማሩት ላይ የተወረደውን ነገር (ያስተምሩዋቸዋል)፡፡ «እኛ መፈተኛ ነንና አትካድ» እስከሚሉም ድረስ አንድንም አያስተምሩም፡፡ ከእነሱም በሰውየውና በሚስቱ መካከል በርሱ የሚለዩበትን ነገር ይማራሉ፡፡ እነርሱም በአላህ ፈቃድ ካልኾነ በርሱ አንድንም ጎጂዎች አይደሉም፡፡ የሚጎዳቸውንና የማይጠቅማቸውንም ይማራሉ፡፡ የገዛውም ሰው ለርሱ በመጨረሻይቱ አገር ምንም እድል የሌለው መኾኑን በእርግጥ ዐወቁ፡፡ ነፍሶቻቸውንም በርሱ የሸጡበት ዋጋ ከፋ! የሚያውቁ በኾኑ ኖሮ (ባልሠሩት ነበር)፡፡",
+     "en": "And they followed [instead] what the devils had recited during the reign of Solomon. It was not Solomon who disbelieved, but the devils disbelieved, teaching people magic and that which was revealed to the two angels at Babylon, Harut and Marut. But the two angels do not teach anyone unless they say, \"We are a trial, so do not disbelieve [by practicing magic].\" And [yet] they learn from them that by which they cause separation between a man and his wife. But they do not harm anyone through it except by permission of Allah. And the people learn what harms them and does not benefit them. But the Children of Israel certainly knew that whoever purchased the magic would not have in the Hereafter any share. And wretched is that for which they sold themselves, if they only knew",
+     "tr": "Waittabaʿoo ma tatloo alshshayateenu ʿala mulki sulaymana wama kafara sulaymanu walakinna alshshayateena kafaroo yuʿallimoona alnnasa alssihra wama onzila ʿala almalakayni bibabila haroota wamaroota wama yuʿallimani min ahadin hatta yaqoola innama nahnu fitnatun fala takfur fayataʿallamoona minhuma ma yufarriqoona bihi bayna almari wazawjihi wama hum bidarreena bihi min ahadin illa biithni Allahi wayataʿallamoona ma yadurruhum wala yanfaʿuhum walaqad ʿalimoo lamani ishtarahu ma lahu fee alakhirati min khalaqin walabisa ma sharaw bihi anfusahum law kanoo yaʿlamoona"
+    }
+   ]
+  },
+  "araf54": {
+   "surah": 7,
+   "nameAr": "الأعرَاف",
+   "nameEn": "Al-A‘rāf",
+   "from": 54,
+   "to": 54,
+   "ayahs": [
+    {
+     "s": 7,
+     "a": 54,
+     "ar": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِي خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَ فِي سِتَّةِ أَيَّامٖ ثُمَّ ٱسۡتَوَىٰ عَلَى ٱلۡعَرۡشِۖ يُغۡشِي ٱلَّيۡلَ ٱلنَّهَارَ يَطۡلُبُهُۥ حَثِيثٗا وَٱلشَّمۡسَ وَٱلۡقَمَرَ وَٱلنُّجُومَ مُسَخَّرَٰتِۭ بِأَمۡرِهِۦٓۗ أَلَا لَهُ ٱلۡخَلۡقُ وَٱلۡأَمۡرُۗ تَبَارَكَ ٱللَّهُ رَبُّ ٱلۡعَٰلَمِينَ ٥٤",
+     "am": "ጌታችሁ ያ ሰማያትንና ምድርን በስድስት ቀኖች ውስጥ የፈጠረ አላህ ነው፡፡ ከዚያም (ስልጣኑ) በዐርሹ ላይ ተደላደለ፡፡ (አላህ) ሌሊትን በቀን ፈጥኖ የሚፈልገው ሲኾን ይሸፍናል፡፡ ፀሐይንና ጨረቃንም ከዋክብትንም በትእዛዙ የተገሩ ሲኾኑ (ፈጠራቸው)፡፡ ንቁ! መፍጠርና ማዘዝ የእርሱ ብቻ ነው፡፡ የዓለማት ጌታ አላህ (ክብሩ) ላቀ፡፡",
+     "en": "Indeed, your Lord is Allah, who created the heavens and earth in six days and then established Himself above the Throne. He covers the night with the day, [another night] chasing it rapidly; and [He created] the sun, the moon, and the stars, subjected by His command. Unquestionably, His is the creation and the command; blessed is Allah, Lord of the worlds",
+     "tr": "Inna rabbakumu Allahu allathee khalaqa alssamawati waalarda fee sittati ayyamin thumma istawa ʿala alʿarshi yughshee allayla alnnahara yatlubuhu hatheethan waalshshamsa waalqamara waalnnujooma musakhkharatin biamrihi ala lahu alkhalqu waalamru tabaraka Allahu rabbu alʿalameena"
+    }
+   ]
+  },
+  "araf117": {
+   "surah": 7,
+   "nameAr": "الأعرَاف",
+   "nameEn": "Al-A‘rāf",
+   "from": 117,
+   "to": 122,
+   "ayahs": [
+    {
+     "s": 7,
+     "a": 117,
+     "ar": "۞ وَأَوۡحَيۡنَآ إِلَىٰ مُوسَىٰٓ أَنۡ أَلۡقِ عَصَاكَۖ فَإِذَا هِيَ تَلۡقَفُ مَا يَأۡفِكُونَ ١١٧",
+     "am": "ወደ ሙሳም፡- «በትርህን ጣል» ስንል ላክን፡፡ (ጣላትም) ወዲያውኑም የሚቀጣጥፉትን (ማታለያ) ትውጣለች፡፡",
+     "en": "And We inspired to Moses, \"Throw your staff,\" and at once it devoured what they were falsifying",
+     "tr": "Waawhayna ila moosa an alqi ʿasaka faitha hiya talqafu ma yafikoona"
+    },
+    {
+     "s": 7,
+     "a": 118,
+     "ar": "فَوَقَعَ ٱلۡحَقُّ وَبَطَلَ مَا كَانُواْ يَعۡمَلُونَ ١١٨",
+     "am": "እውነቱም ተገለጸ፡፡ ይሠሩት የነበሩትም (ድግምት) ተበላሸ፡፡",
+     "en": "So the truth was established, and abolished was what they were doing",
+     "tr": "Fawaqaʿa alhaqqu wabatala ma kanoo yaʿmaloona"
+    },
+    {
+     "s": 7,
+     "a": 119,
+     "ar": "فَغُلِبُواْ هُنَالِكَ وَٱنقَلَبُواْ صَٰغِرِينَ ١١٩",
+     "am": "እዚያ ዘንድ ተሸነፉም፡፡ ወራዶችም ኾነው ተመለሱ፡፡",
+     "en": "And Pharaoh and his people were overcome right there and became debased",
+     "tr": "Faghuliboo hunalika wainqalaboo saghireena"
+    },
+    {
+     "s": 7,
+     "a": 120,
+     "ar": "وَأُلۡقِيَ ٱلسَّحَرَةُ سَٰجِدِينَ ١٢٠",
+     "am": "ድግምተኞቹም ሰጋጆች ኾነው ወደቁ፡፡",
+     "en": "And the magicians fell down in prostration [to Allah]",
+     "tr": "Waolqiya alssaharatu sajideena"
+    },
+    {
+     "s": 7,
+     "a": 121,
+     "ar": "قَالُوٓاْ ءَامَنَّا بِرَبِّ ٱلۡعَٰلَمِينَ ١٢١",
+     "am": "አሉ፡- «በዓለማት ጌታ አመንን፡፡»",
+     "en": "They said, \"We have believed in the Lord of the worlds",
+     "tr": "Qaloo amanna birabbi alʿalameena"
+    },
+    {
+     "s": 7,
+     "a": 122,
+     "ar": "رَبِّ مُوسَىٰ وَهَٰرُونَ ١٢٢",
+     "am": "«በሙሳና በሃሩን ጌታ፡፡»",
+     "en": "The Lord of Moses and Aaron",
+     "tr": "Rabbi moosa waharoona"
+    }
+   ]
+  },
+  "yunus79": {
+   "surah": 10,
+   "nameAr": "يُونس",
+   "nameEn": "Yūnus",
+   "from": 79,
+   "to": 82,
+   "ayahs": [
+    {
+     "s": 10,
+     "a": 79,
+     "ar": "وَقَالَ فِرۡعَوۡنُ ٱئۡتُونِي بِكُلِّ سَٰحِرٍ عَلِيمٖ ٧٩",
+     "am": "ፈርዖንም፡- «ዐዋቂ ድግምተኛን ሁሉ አምጡልኝ» አለ፡፡",
+     "en": "And Pharaoh said, \"Bring to me every learned magician",
+     "tr": "Waqala firʿawnu itoonee bikulli sahirin ʿaleemin"
+    },
+    {
+     "s": 10,
+     "a": 80,
+     "ar": "فَلَمَّا جَآءَ ٱلسَّحَرَةُ قَالَ لَهُم مُّوسَىٰٓ أَلۡقُواْ مَآ أَنتُم مُّلۡقُونَ ٨٠",
+     "am": "ድግምተኞቹም በመጡ ጊዜ ሙሳ ለእነርሱ፡- «እናንተ የምትጥሉትን ነገር ጣሉ» አላቸው፡፡",
+     "en": "So when the magicians came, Moses said to them, \"Throw down whatever you will throw",
+     "tr": "Falamma jaa alssaharatu qala lahum moosa alqoo ma antum mulqoona"
+    },
+    {
+     "s": 10,
+     "a": 81,
+     "ar": "فَلَمَّآ أَلۡقَوۡاْ قَالَ مُوسَىٰ مَا جِئۡتُم بِهِ ٱلسِّحۡرُۖ إِنَّ ٱللَّهَ سَيُبۡطِلُهُۥٓ إِنَّ ٱللَّهَ لَا يُصۡلِحُ عَمَلَ ٱلۡمُفۡسِدِينَ ٨١",
+     "am": "(ገመዶቻቸውን) በጣሉም ጊዜ ሙሳ አለ፡- «ያ በርሱ የመጣችሁበት ነገር ድግምት ነው፡፡ አላህ በእርግጥ ያፈርሰዋል፡፡ አላህ የአጥፊዎችን ሥራ ፈጽሞ አያበጅምና፡፡»",
+     "en": "And when they had thrown, Moses said, \"What you have brought is [only] magic. Indeed, Allah will expose its worthlessness. Indeed, Allah does not amend the work of corrupters",
+     "tr": "Falamma alqaw qala moosa ma jitum bihi alssihru inna Allaha sayubtiluhu inna Allaha la yuslihu ʿamala almufsideena"
+    },
+    {
+     "s": 10,
+     "a": 82,
+     "ar": "وَيُحِقُّ ٱللَّهُ ٱلۡحَقَّ بِكَلِمَٰتِهِۦ وَلَوۡ كَرِهَ ٱلۡمُجۡرِمُونَ ٨٢",
+     "am": "አላህም ከሓዲዎች ቢጠሉም እውነትን በቃላቱ ያረጋግጣል፡፡",
+     "en": "And Allah will establish the truth by His words, even if the criminals dislike it",
+     "tr": "Wayuhiqqu Allahu alhaqqa bikalimatihi walaw kariha almujrimoona"
+    }
+   ]
+  },
+  "taha65": {
+   "surah": 20,
+   "nameAr": "طه",
+   "nameEn": "Ṭā-Hā",
+   "from": 65,
+   "to": 69,
+   "ayahs": [
+    {
+     "s": 20,
+     "a": 65,
+     "ar": "قَالُواْ يَٰمُوسَىٰٓ إِمَّآ أَن تُلۡقِيَ وَإِمَّآ أَن نَّكُونَ أَوَّلَ مَنۡ أَلۡقَىٰ ٦٥",
+     "am": "«ሙሳ ሆይ! ወይ ትጥላለህ ወይም በመጀመሪያ የምንጥል እንኾናለን» (ምረጥ) አሉ፡፡",
+     "en": "They said, \"O Moses, either you throw or we will be the first to throw",
+     "tr": "Qaloo ya moosa imma an tulqiya waimma an nakoona awwala man alqa"
+    },
+    {
+     "s": 20,
+     "a": 66,
+     "ar": "قَالَ بَلۡ أَلۡقُواْۖ فَإِذَا حِبَالُهُمۡ وَعِصِيُّهُمۡ يُخَيَّلُ إِلَيۡهِ مِن سِحۡرِهِمۡ أَنَّهَا تَسۡعَىٰ ٦٦",
+     "am": "«አይደለም ጣሉ» አላቸው፡፡ ወዲያውም ገመዶቻቸውና ዘንጎቻቸው ከድግምታቸው የተነሳ እነርሱ የሚሮጡ (እባቦች) ኾነው ወደርሱ ተመለሱ፡፡",
+     "en": "He said, \"Rather, you throw.\" And suddenly their ropes and staffs seemed to him from their magic that they were moving [like snakes]",
+     "tr": "Qala bal alqoo faitha hibaluhum waʿisiyyuhum yukhayyalu ilayhi min sihrihim annaha tasʿa"
+    },
+    {
+     "s": 20,
+     "a": 67,
+     "ar": "فَأَوۡجَسَ فِي نَفۡسِهِۦ خِيفَةٗ مُّوسَىٰ ٦٧",
+     "am": "ሙሳም በነፍሱ ውስጥ ፍርሃትን አሳደረ፡፡",
+     "en": "And he sensed within himself apprehension, did Moses",
+     "tr": "Faawjasa fee nafsihi kheefatan moosa"
+    },
+    {
+     "s": 20,
+     "a": 68,
+     "ar": "قُلۡنَا لَا تَخَفۡ إِنَّكَ أَنتَ ٱلۡأَعۡلَىٰ ٦٨",
+     "am": "«አትፍራ አንተ የበላዩ አንተ ነህና» አልነው፡፡",
+     "en": "Allah said, \"Fear not. Indeed, it is you who are superior",
+     "tr": "Qulna la takhaf innaka anta alaʿla"
+    },
+    {
+     "s": 20,
+     "a": 69,
+     "ar": "وَأَلۡقِ مَا فِي يَمِينِكَ تَلۡقَفۡ مَا صَنَعُوٓاْۖ إِنَّمَا صَنَعُواْ كَيۡدُ سَٰحِرٖۖ وَلَا يُفۡلِحُ ٱلسَّاحِرُ حَيۡثُ أَتَىٰ ٦٩",
+     "am": "«በቀኝ እጅህ ያለቸውንም በትር ጣል፡፡ ያንን የሠሩትን ትውጣለችና፡፡ ያ የሠሩት ሁሉ የድግምተኛ ተንኮል ነውና፡፡ ድግምተኛም በመጣበት ስፍራ ሁሉ አይቀናውም» (አልን)፡፡",
+     "en": "And throw what is in your right hand; it will swallow up what they have crafted. What they have crafted is but the trick of a magician, and the magician will not succeed wherever he is",
+     "tr": "Waalqi ma fee yameenika talqaf ma sanaʿoo innama sanaʿoo kaydu sahirin wala yuflihu alssahiru haythu ata"
+    }
+   ]
+  },
+  "muminun115": {
+   "surah": 23,
+   "nameAr": "المؤمنُون",
+   "nameEn": "Al-Mu’minūn",
+   "from": 115,
+   "to": 118,
+   "ayahs": [
+    {
+     "s": 23,
+     "a": 115,
+     "ar": "أَفَحَسِبۡتُمۡ أَنَّمَا خَلَقۡنَٰكُمۡ عَبَثٗا وَأَنَّكُمۡ إِلَيۡنَا لَا تُرۡجَعُونَ ١١٥",
+     "am": "«የፈጠርናችሁ ለከንቱ መኾኑን እናንተም ወደኛ የማትመለሱ መኾናችሁን ጠረጠራችሁን» (ለከንቱ የፈጠርናችሁ መሰላችሁን)",
+     "en": "Then did you think that We created you uselessly and that to Us you would not be returned",
+     "tr": "Afahasibtum annama khalaqnakum ʿabathan waannakum ilayna la turjaʿoona"
+    },
+    {
+     "s": 23,
+     "a": 116,
+     "ar": "فَتَعَٰلَى ٱللَّهُ ٱلۡمَلِكُ ٱلۡحَقُّۖ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلۡعَرۡشِ ٱلۡكَرِيمِ ١١٦",
+     "am": "የእውነቱም ንጉስ አላህ ከፍተኛነት ተገባው፡፡ ከእርሱ ሌላ አምላክ የለም፡፡ የሚያምረው ዐርሽ ጌታ ነው፡፡",
+     "en": "So exalted is Allah, the Sovereign, the Truth; there is no deity except Him, Lord of the Noble Throne",
+     "tr": "Fataʿala Allahu almaliku alhaqqu la ilaha illa huwa rabbu alʿarshi alkareemi"
+    },
+    {
+     "s": 23,
+     "a": 117,
+     "ar": "وَمَن يَدۡعُ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ لَا بُرۡهَٰنَ لَهُۥ بِهِۦ فَإِنَّمَا حِسَابُهُۥ عِندَ رَبِّهِۦٓۚ إِنَّهُۥ لَا يُفۡلِحُ ٱلۡكَٰفِرُونَ ١١٧",
+     "am": "ከአላህም ጋር ሌላን አምላክ ለእርሱ በእርሱ ማስረጃ የሌለውን የሚገዛ ሰው ምርመራው እጌታው ዘንድ ብቻ ነው፡፡ እነሆ ከሓዲዎች አይድኑም፡፡",
+     "en": "And whoever invokes besides Allah another deity for which he has no proof - then his account is only with his Lord. Indeed, the disbelievers will not succeed",
+     "tr": "Waman yadʿu maʿa Allahi ilahan akhara la burhana lahu bihi fainnama hisabuhu ʿinda rabbihi innahu la yuflihu alkafiroona"
+    },
+    {
+     "s": 23,
+     "a": 118,
+     "ar": "وَقُل رَّبِّ ٱغۡفِرۡ وَٱرۡحَمۡ وَأَنتَ خَيۡرُ ٱلرَّٰحِمِينَ ١١٨",
+     "am": "በልም «ጌታዬ ሆይ ማር፤ እዘንም፡፡ አንተም ከአዛኞች ሁሉ በላጭ ነህ፡፡»",
+     "en": "And, [O Muhammad], say, \"My Lord, forgive and have mercy, and You are the best of the merciful",
+     "tr": "Waqul rabbi ighfir wairham waanta khayru alrrahimeena"
+    }
+   ]
+  },
+  "isra82": {
+   "surah": 17,
+   "nameAr": "الإسرَاء",
+   "nameEn": "Al-Isrā’",
+   "from": 82,
+   "to": 82,
+   "ayahs": [
+    {
+     "s": 17,
+     "a": 82,
+     "ar": "وَنُنَزِّلُ مِنَ ٱلۡقُرۡءَانِ مَا هُوَ شِفَآءٞ وَرَحۡمَةٞ لِّلۡمُؤۡمِنِينَ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارٗا ٨٢",
+     "am": "ከቁርኣንም ለምእመናን መድኀኒትና እዝነት የኾነን እናወርዳለን፡፡ በዳዮችንም ከሳራን እንጂ ሌላ አይጨምርላቸውም፡፡",
+     "en": "And We send down of the Qur'an that which is healing and mercy for the believers, but it does not increase the wrongdoers except in loss",
+     "tr": "Wanunazzilu mina alqurani ma huwa shifaon warahmatun lilmumineena wala yazeedu alththalimeena illa khasaran"
+    }
+   ]
+  },
+  "mulk3": {
+   "surah": 67,
+   "nameAr": "المُلك",
+   "nameEn": "Al-Mulk",
+   "from": 3,
+   "to": 4,
+   "ayahs": [
+    {
+     "s": 67,
+     "a": 3,
+     "ar": "ٱلَّذِي خَلَقَ سَبۡعَ سَمَٰوَٰتٖ طِبَاقٗاۖ مَّا تَرَىٰ فِي خَلۡقِ ٱلرَّحۡمَٰنِ مِن تَفَٰوُتٖۖ فَٱرۡجِعِ ٱلۡبَصَرَ هَلۡ تَرَىٰ مِن فُطُورٖ ٣",
+     "am": "ያ ሰባትን ሰማያት የተነባበሩ ኾነው የፈጠረ ነው፡፡ በአልረሕማን አፈጣጠር ውስጥ ምንም መዛነፍን አታይም፡፡ ዓይንህንም መልስ፡፡ «ከስንጥቆች አንዳችን ታያለህን?»",
+     "en": "[And] who created seven heavens in layers. You do not see in the creation of the Most Merciful any inconsistency. So return [your] vision [to the sky]; do you see any breaks",
+     "tr": "Allathee khalaqa sabʿa samawatin tibaqan ma tara fee khalqi alrrahmani min tafawutin fairjiʿi albasara hal tara min futoorin"
+    },
+    {
+     "s": 67,
+     "a": 4,
+     "ar": "ثُمَّ ٱرۡجِعِ ٱلۡبَصَرَ كَرَّتَيۡنِ يَنقَلِبۡ إِلَيۡكَ ٱلۡبَصَرُ خَاسِئٗا وَهُوَ حَسِيرٞ ٤",
+     "am": "ከዚያም ብዙ ጊዜ ዓይንህን መላልስ፡፡ ዓይንህ ተዋርዶ እርሱም የደከመ ኾኖ ወዳንተ ይመለሳል፡፡",
+     "en": "Then return [your] vision twice again. [Your] vision will return to you humbled while it is fatigued",
+     "tr": "Thumma irjiʿi albasara karratayni yanqalib ilayka albasaru khasian wahuwa haseerun"
+    }
+   ]
+  },
+  "jinn3": {
+   "surah": 72,
+   "nameAr": "الجِن",
+   "nameEn": "Al-Jinn",
+   "from": 3,
+   "to": 3,
+   "ayahs": [
+    {
+     "s": 72,
+     "a": 3,
+     "ar": "وَأَنَّهُۥ تَعَٰلَىٰ جَدُّ رَبِّنَا مَا ٱتَّخَذَ صَٰحِبَةٗ وَلَا وَلَدٗا ٣",
+     "am": "‹እነሆም የጌታችን ክብር ላቀ፡፡ ሚስትንም ልጅንም አልያዘም፡፡›",
+     "en": "And [it teaches] that exalted is the nobleness of our Lord; He has not taken a wife or a son",
+     "tr": "Waannahu taʿala jaddu rabbina ma ittakhatha sahibatan wala waladan"
+    }
+   ]
+  },
+  "imran190": {
+   "surah": 3,
+   "nameAr": "آل عِمران",
+   "nameEn": "Āl-‘Imrān",
+   "from": 190,
+   "to": 191,
+   "ayahs": [
+    {
+     "s": 3,
+     "a": 190,
+     "ar": "إِنَّ فِي خَلۡقِ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ وَٱخۡتِلَٰفِ ٱلَّيۡلِ وَٱلنَّهَارِ لَأٓيَٰتٖ لِّأُوْلِي ٱلۡأَلۡبَٰبِ ١٩٠",
+     "am": "ሰማያትንና ምድርን በመፍጠር ሌሊትና ቀንንም በመተካካት ለባለ አእምሮዎች በእርግጥ ምልክቶች አሉ፡፡",
+     "en": "Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs for those of understanding",
+     "tr": "Inna fee khalqi alssamawati waalardi waikhtilafi allayli waalnnahari laayatin liolee alalbabi"
+    },
+    {
+     "s": 3,
+     "a": 191,
+     "ar": "ٱلَّذِينَ يَذۡكُرُونَ ٱللَّهَ قِيَٰمٗا وَقُعُودٗا وَعَلَىٰ جُنُوبِهِمۡ وَيَتَفَكَّرُونَ فِي خَلۡقِ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ رَبَّنَا مَا خَلَقۡتَ هَٰذَا بَٰطِلٗا سُبۡحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ ١٩١",
+     "am": "(እነርሱም) እነዚያ ቆመው፣ ተቀምጠውም፣ በጎኖቻቸው ተጋድመውም አላህን የሚያወሱ በሰማያትና በምድር አፈጣጠርም የሚያስተነትኑ፡- «ጌታችን ሆይ! ይኸን በከንቱ አልፈጠርከውም፤ ጥራት ይገባህ፤ ከእሳትም ቅጣት ጠብቀን» የሚሉ ናቸው፡፡",
+     "en": "Who remember Allah while standing or sitting or [lying] on their sides and give thought to the creation of the heavens and the earth, [saying], \"Our Lord, You did not create this aimlessly; exalted are You [above such a thing]; then protect us from the punishment of the Fire",
+     "tr": "Allatheena yathkuroona Allaha qiyaman waquʿoodan waʿala junoobihim wayatafakkaroona fee khalqi alssamawati waalardi rabbana ma khalaqta hatha batilan subhanaka faqina ʿathaba alnnari"
+    }
+   ]
+  },
+  "kafirun": {
+   "surah": 109,
+   "nameAr": "الكافِرون",
+   "nameEn": "Al-Kāfirūn",
+   "from": 1,
+   "to": 6,
+   "ayahs": [
+    {
+     "s": 109,
+     "a": 1,
+     "ar": "قُلۡ يَٰٓأَيُّهَا ٱلۡكَٰفِرُونَ ١",
+     "am": "በላቸው «እናንተ ከሓዲዎች ሆይ",
+     "en": "Say, \"O disbelievers",
+     "tr": "Qul ya ayyuha alkafiroona"
+    },
+    {
+     "s": 109,
+     "a": 2,
+     "ar": "لَآ أَعۡبُدُ مَا تَعۡبُدُونَ ٢",
+     "am": "«ያንን የምትግገዙትን (ጣዖት አሁን) አልግገዛም፡፡",
+     "en": "I do not worship what you worship",
+     "tr": "La aʿbudu ma taʿbudoona"
+    },
+    {
+     "s": 109,
+     "a": 3,
+     "ar": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ ٣",
+     "am": "«እናንተም እኔ የምግገዛውን (አምላክም አሁን) ተገዢዎች አይደላችሁም፡፡",
+     "en": "Nor are you worshippers of what I worship",
+     "tr": "Wala antum ʿabidoona ma aʿbudu"
+    },
+    {
+     "s": 109,
+     "a": 4,
+     "ar": "وَلَآ أَنَا۠ عَابِدٞ مَّا عَبَدتُّمۡ ٤",
+     "am": "«እኔም ያንን የተገዛችሁትን (ወደፊት) ተገዢ አይደለሁም፡፡",
+     "en": "Nor will I be a worshipper of what you worship",
+     "tr": "Wala ana ʿabidun ma ʿabadtum"
+    },
+    {
+     "s": 109,
+     "a": 5,
+     "ar": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ ٥",
+     "am": "«እናንተም እኔ የምግገዛውን (ወደፊት) ተገዢዎች አይደላችሁም፡፡",
+     "en": "Nor will you be worshippers of what I worship",
+     "tr": "Wala antum ʿabidoona ma aʿbudu"
+    },
+    {
+     "s": 109,
+     "a": 6,
+     "ar": "لَكُمۡ دِينُكُمۡ وَلِيَ دِينِ ٦",
+     "am": "«ለእናንተ ሃይማኖታችሁ አልላችሁ፡፡ ለእኔም ሃይማኖቴ አለኝ፡፡",
+     "en": "For you is your religion, and for me is my religion",
+     "tr": "Lakum deenukum waliya deeni"
     }
    ]
   }
