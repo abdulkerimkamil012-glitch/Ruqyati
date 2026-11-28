@@ -1,6 +1,5 @@
 # CHANGELOG
 
-- 2026-11-28: Sifted the أطباء الحرمين PDF and Al Bayan water article: 13 new passages, 9 authentic duas, 4 new routines (complete, fear, eye, water), grouped Home, "How the two sources were checked" article. 38 tests pass.
 - 2026-11-23 · Planning docs added (idea, spec, content map, plan, todo, decisions)
 - 2026-11-23 · v1.0.0: whole app built: Sunnah / extended / child-spouse / pain ruqyah, session player with counter + Alafasy audio, library & guidance, 30-day tracker with Ethiopian dates, calendar reminders, am/ar/en, light/night, offline PWA
 - Rule: in RTL, numeric ratios like "3 / 14" need dir="ltr". Learned from: Arabic step counter showed "14 / 3".
@@ -14,3 +13,4 @@
 - 2026-11-28 · Ustaz questions pack 2 (docs/review/Ruqyati-daily-protection-questions.pdf, 14 pages): daily protection, anxiety, fear of marriage; 24 items with full text + source, 19 questions, blank page for his suggestions. Ahmad 3712 flagged (graded differently).
 - 2026-11-28 · Pack 2 v2: Amharic letter only, only items already in the app (10), 18 questions, ustaz answers/suggests by voice message.
 - 2026-11-28 · Ustaz pack v3 (docs/review/Ruqyati-for-ustaz.pdf, 11 pages): Amharic letter only, app content only (27 items, full text + source), 18 questions answered by voice; no tick boxes.
+- 2026-11-28 · Sifted the أطباء الحرمين PDF and Al Bayan water article: 13 new passages, 9 authentic duas, 4 new routines (complete, fear, eye, water), grouped Home, "How the two sources were checked" article. 38 tests pass.
