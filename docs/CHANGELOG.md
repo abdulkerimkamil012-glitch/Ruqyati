@@ -9,3 +9,4 @@
 - 2026-11-25 · Quick check for scholars: 2 pages, 12 decisions with our proposal + 9 duas (docs/review/Ruqyati-quick-check.pdf)
 - 2026-11-25 · Quick-check for busy scholars (docs/review/Ruqyati-quick-check.pdf, 4 pages): letter, 25 numbered items ✓/✗, 8 decisions with our proposals.
 - 2026-11-28 · Easy review PDF (21 pages, Amharic): letter with full duas + sources, 27 items full text, 22 questions on general daily protection (stress, marriage, women, water), 8 decisions.
+- 2026-11-28 · General daily ruqyah review PDF (docs/review/, 26 pages): full Arabic + Amharic + count + time + source/grade for 39 items, nafth/water how-to, 27 questions. Findings: Abu Dawud 3885 (water) da'if isnad; Ahmad 3712 grade differs.
