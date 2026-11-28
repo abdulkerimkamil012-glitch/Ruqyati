@@ -12,3 +12,4 @@
 - 2026-11-28 · General daily ruqyah review PDF (docs/review/, 26 pages): full Arabic + Amharic + count + time + source/grade for 39 items, nafth/water how-to, 27 questions. Findings: Abu Dawud 3885 (water) da'if isnad; Ahmad 3712 grade differs.
 - 2026-11-28 · Ustaz questions pack 2 (docs/review/Ruqyati-daily-protection-questions.pdf, 14 pages): daily protection, anxiety, fear of marriage; 24 items with full text + source, 19 questions, blank page for his suggestions. Ahmad 3712 flagged (graded differently).
 - 2026-11-28 · Pack 2 v2: Amharic letter only, only items already in the app (10), 18 questions, ustaz answers/suggests by voice message.
+- 2026-11-28 · Ustaz pack v3 (docs/review/Ruqyati-for-ustaz.pdf, 11 pages): Amharic letter only, app content only (27 items, full text + source), 18 questions answered by voice; no tick boxes.
